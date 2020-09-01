@@ -6,12 +6,12 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>C:\Users\clint\Desktop\New folder (21)\PAT\PayAtTable.ServerCore\PayAtTable.ServerCore\PayAtTable.ServerCore.xml</DocumentationFile>
+    <DocumentationFile>C:\PAT\PayAtTable.ServerCore.xml</DocumentationFile>
     <DefineConstants>TRACE;NOTSERVICE</DefineConstants>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>C:\Users\clint\Desktop\New folder (21)\PAT\PayAtTable.ServerCore\PayAtTable.ServerCore\PayAtTable.ServerCore.xml</DocumentationFile>
+    <DocumentationFile>C:\PAT\PayAtTable.ServerCore.xml</DocumentationFile>
     <DefineConstants>TRACE;NOTSERVICE</DefineConstants>
   </PropertyGroup>
 
