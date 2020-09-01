@@ -1,0 +1,56 @@
+﻿@page
+@model IndexModel
+
+<br />
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4>Settings</h4>
+            </div>
+            <div class="panel-body">
+                <table class="table table-hover">
+                    <tbody>
+                        <tr>
+                            <th scope="row">Version</th>
+                            <td> @Html.DisplayFor(m => m.InformationalVersion) </td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">API Reference URI</th>
+                            <td> <a href="/swagger" target="_blank">Swagger</a> </td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Health Status</th>
+                            <td> <a href="/health" target="_blank">@Html.DisplayFor(m => m.HealthStatus)</a> </td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Environment Name</th>
+                            <td> @Html.DisplayFor(m => m.EnvironmentName) </td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Content Root Path</th>
+                            <td> @Html.DisplayFor(m => m.ContentRootPath) </td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Settings Path</th>
+                            <td> @Html.DisplayFor(m => m.SettingsPath) </td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Web Root Path</th>
+                            <td> @Html.DisplayFor(m => m.WebRootPath) </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</div>

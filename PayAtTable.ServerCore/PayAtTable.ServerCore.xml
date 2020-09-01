@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PayAtTable.ServerCore</name>
+    </assembly>
+    <members>
+        <member name="M:PayAtTable.API.Helpers.ApiKeyHandler.ReloadKeys">
+            <summary>
+            Reload our list of valid keys. This could come from a file or a database
+            </summary>
+        </member>
+        <member name="M:PayAtTable.API.Helpers.ApiKeyHandler.ValidateKey(System.Net.Http.HttpRequestMessage)">
+            <summary>
+            Validate the "KeyParam" parameter of a request against our list of valid keys
+            </summary>
+            <param name="message">The request message</param>
+            <returns>True if valid, false otherwise</returns>
+        </member>
+        <member name="T:PayAtTable.API.Helpers.DbFactory">
+            <summary>
+            Factory that wraps creation of database connections
+            </summary>
+        </member>
+        <member name="M:PayAtTable.API.Helpers.DbFactory.CreatePosDb">
+            <summary>
+            Creates a new SqlConnection for the POS database
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
